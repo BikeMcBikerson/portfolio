@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BikeMcBikerson/portfolio.git"
+  },
+  "author": "James Vincent Leonard Purba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BikeMcBikerson/portfolio/issues"
+  },
+  "homepage": "https://github.com/BikeMcBikerson/portfolio#readme",
+  "dependencies": {
+    "@carbon/grid": "^11.11.0",
+    "@carbon/layout": "^11.11.0"
+  }
+}
