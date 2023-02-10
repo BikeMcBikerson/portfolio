@@ -1,0 +1,91 @@
+@use '../node_modules/carbon-components/scss/globals/grid/grid';
+
+@font-face {
+    font-family: 'Aspekta Bold';
+    src: url('/type/Aspekta-750.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Aspekta Regular';
+    src: url('/type/Aspekta-350.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'IBM Plex Mono Medium';
+    src: url('/type/IBMPlexMono-Medium-Latin1.woff2') format('woff2');
+}
+
+$black: rgb(20, 20, 23);
+$grey: rgb(179, 187, 184);
+$white: rgb(246, 246, 246);
+
+.aspekta-bold {
+    font-family: 'Aspekta Bold', Helvetica, sans-serif;
+}
+
+.aspekta-regular {
+    font-family: 'Aspekta Regular', Helvetica, sans-serif;
+}
+
+.ibm-plex-mono {
+    font-family: 'IBM Plex Mono Medium', Courier, monospace;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+body {
+    color: $black;
+    background: $white;
+}
+
+header {
+    justify-content: space-between;
+}
+
+
+#name {
+    font-size: 7rem;
+    text-align: left;
+    line-height: 0.9;
+}
+
+#social-media {
+
+    img {
+        margin: 0 0.75rem;
+    }
+
+    img:hover {
+        opacity: 70%;
+    }
+}
+
+#nav-sidebar {
+    color: $grey;
+    font-size: 2.5rem;
+    text-align: left;
+    margin-top: 1rem;
+
+    a {
+        margin-top: 0.5rem;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+
+    .row {
+        display: inherit;
+        flex-direction: row;
+    }
+
+    .column {
+        display: inherit;
+        flex-direction: column;
+    }
+}
